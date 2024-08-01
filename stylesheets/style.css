@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'General Sans';
+    font-family: 'General Sans', sans-serif;
     src: url('fonts/GeneralSans-Medium.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
