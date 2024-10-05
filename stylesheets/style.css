@@ -46,7 +46,7 @@ html,body{
 
 #main{
     width:100%;
-    /* height: auto; */
+    height: auto;
     background-color: black;
 }
 

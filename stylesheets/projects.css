@@ -1,0 +1,50 @@
+#project-heading {
+    text-align: center;
+    padding: 20px;
+    font-size: 4vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+}
+
+#project-list {
+    padding: 60px 10vw;
+    background-color: black;
+    color: white;
+}
+
+.project-item {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+}
+
+.project-item h2 {
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.project-item p {
+    font-size: 1vw;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #fff;
+    color: #000;
+}
