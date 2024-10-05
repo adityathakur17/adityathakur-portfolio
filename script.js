@@ -52,7 +52,7 @@ function firstPageAnim(){
             stagger: .2
             
         })
-        .from('#herofooter',{
+        .from('#footer',{
             y: -10,
             opacity: 0,
             duration: 1.5,
