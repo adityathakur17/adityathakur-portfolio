@@ -46,8 +46,9 @@ html,body{
 
 #main{
     width:100%;
-    height: auto;
+    min-height: 100vh;
     background-color: black;
+    overflow: hidden;
 }
 
 #hero{
@@ -299,17 +300,21 @@ html,body{
     margin-top: 10px;
     
 }
-
-#footer{
-    
+#footer {
+    height: 50px; /* or whatever the intended height is */
     background-color: black;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1px 30px;
-    
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+   
 }
+
+
 
 #footer-left{
     display: flex;

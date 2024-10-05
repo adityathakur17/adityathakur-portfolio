@@ -61,6 +61,10 @@ function firstPageAnim(){
         })
 } 
 
+window.addEventListener('load', function () {
+    scroll.update();
+});
+
 
 
 //circle flatten code
