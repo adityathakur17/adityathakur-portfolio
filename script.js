@@ -12,6 +12,10 @@ document.getElementById('projects-link').addEventListener('click', function(even
     window.location.href = '/projects';
 });
 
+document.getElementById('blogs-link').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+    window.location.href = '/blogs';
+});
 
 //dropdown menu
 document.getElementById('menu').addEventListener('click', function() {
