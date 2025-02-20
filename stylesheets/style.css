@@ -334,3 +334,299 @@ html,body{
     color: #fff;
     text-decoration: none;
 }
+
+/* Existing CSS remains the same until the end */
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust navigation for smaller screens */
+    #nav {
+        padding: 10px 20px;
+    }
+
+    #nav a {
+        font-size: 16px;
+    }
+
+    /* Adjust heading for smaller screens */
+    #heading h1 {
+        font-size: 15vw;
+        margin-left: 10px;
+    }
+
+    #heading #secondh1 {
+        margin-left: 50px;
+    }
+
+    /* Adjust blocktext for smaller screens */
+    .blocktext h5 {
+        font-size: 12px;
+    }
+
+    /* Adjust small headings for smaller screens */
+    #small-headings h5 {
+        font-size: 3vw;
+    }
+
+    /* Adjust hero footer for smaller screens */
+    #hero-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+
+    #hero-footer a {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust about section for smaller screens */
+    #about {
+        flex-direction: column;
+        padding: 10vw 5vw;
+        text-align: center;
+    }
+
+    #text-about {
+        width: 100%;
+    }
+
+    #about img {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    /* Adjust elements in the second section */
+    .elem {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5vw 3vw;
+    }
+
+    .elem h1 {
+        font-size: 10vw;
+    }
+
+    .elem h5 {
+        margin-top: 10px;
+    }
+
+    /* Adjust footer for smaller screens */
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #footer-left, #footer-right {
+        gap: 10px;
+    }
+
+    #footer a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    #heading h1 {
+        font-size: 20vw;
+    }
+
+    #heading #secondh1 {
+        margin-left: 20px;
+    }
+
+    .blocktext h5 {
+        font-size: 10px;
+    }
+
+    #small-headings h5 {
+        font-size: 4vw;
+    }
+
+    #hero-footer {
+        padding: 0 10px;
+    }
+
+    #about {
+        padding: 10vw 2vw;
+    }
+
+    #about img {
+        width: 120px;
+    }
+
+    .elem h1 {
+        font-size: 12vw;
+    }
+
+    #footer {
+        padding: 5px;
+    }
+
+    #footer a {
+        font-size: 10px;
+    }
+}
+
+/* Existing CSS remains the same until the end */
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust navigation for smaller screens */
+    #nav {
+        padding: 10px 20px;
+    }
+
+    #nav a {
+        font-size: 16px;
+    }
+
+    /* Adjust heading for smaller screens */
+    #heading h1 {
+        font-size: 15vw;
+        margin-left: 10px;
+    }
+
+    #heading #secondh1 {
+        margin-left: 50px;
+    }
+
+    /* Adjust blocktext for smaller screens */
+    .blocktext h5 {
+        font-size: 12px;
+    }
+
+    /* Adjust small headings for smaller screens */
+    #small-headings h5 {
+        font-size: 3vw;
+    }
+
+    /* Adjust hero footer for smaller screens */
+    #hero-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+
+    #hero-footer a {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust about section for smaller screens */
+    #about {
+        flex-direction: column;
+        padding: 10vw 5vw;
+        text-align: center;
+    }
+
+    #text-about {
+        width: 100%;
+    }
+
+    #about img {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    /* Adjust elements in the second section */
+    .elem {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5vw 3vw;
+    }
+
+    .elem h1 {
+        font-size: 10vw;
+    }
+
+    .elem h5 {
+        margin-top: 10px;
+    }
+
+    /* Adjust footer for smaller screens */
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #footer-left, #footer-right {
+        gap: 10px;
+    }
+
+    #footer a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 474px) {
+    /* Further adjustments for very small screens */
+    #nav {
+        padding: 10px;
+    }
+
+    #nav a {
+        font-size: 14px;
+    }
+
+    #heading{
+        height: 50vh;
+    }
+
+    #heading h1 {
+        font-size: 16vw;
+        margin-left: 5px;
+    }
+
+    #heading #secondh1 {
+        margin-left: 30px;
+    }
+
+    .blocktext h5 {
+        font-size: 10px;
+    }
+
+    #small-headings h5 {
+        font-size: 4vw;
+    }
+
+    #hero-footer {
+        padding: 0 10px;
+    }
+
+    #about {
+        padding: 10vw 2vw;
+    }
+
+    #about img {
+        width: 120px;
+    }
+
+    .elem h1 {
+        font-size: 12vw;
+    }
+
+    #footer {
+        padding: 5px;
+    }
+
+    #footer a {
+        font-size: 10px;
+    }
+
+    /* Adjust dropdown menu for very small screens */
+    .dropdown-content-wrap {
+        top: 50%;
+        right: 0;
+        min-width: 140px;
+    }
+
+    .dropdown-content {
+        padding: 10px;
+    }
+
+    .dropdown-content a {
+        font-size: 12px;
+    }
+}
