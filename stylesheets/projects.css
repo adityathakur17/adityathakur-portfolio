@@ -48,3 +48,67 @@
     background-color: #fff;
     color: #000;
 }
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust blog heading for smaller screens */
+    #project-heading {
+        font-size: 6vw;
+        padding: 15px;
+    }
+
+    /* Adjust project list padding for smaller screens */
+    #project-list {
+        padding: 40px 5vw;
+    }
+
+    /* Adjust project item styles for smaller screens */
+    .project-item {
+        padding: 15px;
+    }
+
+    .project-item h2 {
+        font-size: 4vw;
+    }
+
+    .project-item p {
+        font-size: 2vw;
+    }
+
+    .project-link {
+        font-size: 2vw;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 474px) {
+    /* Further adjustments for very small screens */
+    #project-heading {
+        font-size: 8vw;
+        padding: 10px;
+    }
+
+    /* Adjust project list padding for very small screens */
+    #project-list {
+        padding: 30px 3vw;
+    }
+
+    /* Adjust project item styles for very small screens */
+    .project-item {
+        padding: 10px;
+    }
+
+    .project-item h2 {
+        font-size: 5vw;
+    }
+
+    .project-item p {
+        font-size: 3vw;
+    }
+
+    .project-link {
+        font-size: 3vw;
+        padding: 6px 12px;
+    }
+}
