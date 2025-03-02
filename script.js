@@ -122,7 +122,7 @@ firstPageAnim();
     const now = new Date();
     const hours = now.getHours().toString();
     const minutes = now.getMinutes().toString();
-    const currentTime = `${hours}:${minutes}`;
+    const currentTime =`${hours}:${minutes >= 10 ? minutes : "0" + minutes}`;
     timeDiv.textContent = currentTime;
 }
 
