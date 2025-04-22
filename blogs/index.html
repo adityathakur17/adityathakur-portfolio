@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/loco.css">
-    <link rel="stylesheet" href="/stylesheets/blogs.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/loco.css">
+    <link rel="stylesheet" href="../stylesheets/blogs.css">
 </head>
-<body>
-    
-    <div id="mini-circle"></div>
-    <div id="blog-heading">
-        <h1>BLOGS</h1>
-    </div>
-</div>
-<div id="blog-list">
-    <div class="blog-item">
-        <h2>webpack vs cra</h2>
-        <p>In this article we're going to learn about the difference between initializing a project using npx create-react-app and using a react bundler such as Vite.
-        We'll see what are the pros and cons of both the ways and which one you should be using</p>
-        <a href="https://adityathakur17.hashnode.dev/webpackcra-vs-react-bundler" class="blog-link">View blog</a>
-    </div>
-    <div class="blog-item">
-        <h2>Learning Context API, and Local Storage</h2>
-        <p>The Todo app is a basic tool that lets users create a list of tasks, mark them as completed, and remove them when they’re done. It might sound simple, but it covers a lot of ground in React, from state management to persisting data with Local Storage...</p>
-        <a href="#" class="blog-link">View blog</a>
-    </div>
-    
-    <!-- Add more blog items as needed -->
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-<!-- <script src="/script.js"></script> -->
 
+<body>
+    <div id="mini-circle"></div>
+    <div id="main" data-scroll-container>
+        <div id="blog-heading">
+            <h1>BLOGS</h1>
+        </div>
+        <div id="blog-list">
+            <div class="blog-item">
+                <h2>webpack vs cra</h2>
+                <p>In this article we're going to learn about the difference between initializing a project using npx
+                    create-react-app and using a react bundler such as Vite.
+                    We'll see what are the pros and cons of both the ways and which one you should be using</p>
+                <a href="https://adityathakur17.hashnode.dev/webpackcra-vs-react-bundler" class="blog-link">View
+                    blog</a>
+            </div>
+            <div class="blog-item">
+                <h2>Learning Context API, and Local Storage</h2>
+                <p>The Todo app is a basic tool that lets users create a list of tasks, mark them as completed, and
+                    remove them when they're done. It might sound simple, but it covers a lot of ground in React, from
+                    state management to persisting data with Local Storage...</p>
+                <a href="#" class="blog-link">View blog</a>
+            </div>
+            <!-- Add more blog items as needed -->
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="blogs.js"></script>
 </body>
-    
+
 </html>
