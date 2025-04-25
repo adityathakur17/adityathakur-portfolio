@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'General Sans';
-    src: url('../fonts/GeneralSans-Regular.otf') format('opentype');
+    src: url('../assets/fonts/GeneralSans-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'General Sans', sans-serif;
-    src: url('../fonts/GeneralSans-Medium.otf') format('opentype');
+    src: url('../assets/fonts/GeneralSans-Medium.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -261,6 +261,62 @@ body {
     color: #fff;
 }
 
+.skills-container {
+    color: #b3b3b3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.skills-container h2 {
+    color: #fff;
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+    width: 100%;
+}
+
+.skills-list ul {
+    display: contents;
+}
+
+.skills-list li {
+    color: #fff;
+    list-style: none;
+    font-size: 1.2vw;
+    padding: 1.5vw;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.skills-list li b {
+    color: #888;
+    display: block;
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 #about {
     color: white;
     display: flex;
@@ -460,6 +516,26 @@ body {
     #footer a {
         font-size: 12px;
     }
+
+    .skills-container h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .skills-list li {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .skills-list li b {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -503,6 +579,24 @@ body {
 
     #footer a {
         font-size: 10px;
+    }
+
+    .skills-container {
+        padding: 30px 15px;
+    }
+
+    .skills-container h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .skills-list li {
+        font-size: 13px;
+        padding: 12px;
+    }
+
+    .skills-list li b {
+        font-size: 11px;
     }
 }
 
@@ -596,6 +690,26 @@ body {
 
     #footer a {
         font-size: 12px;
+    }
+
+    .skills-container h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .skills-list li {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .skills-list li b {
+        font-size: 12px;
+        margin-bottom: 5px;
     }
 }
 
